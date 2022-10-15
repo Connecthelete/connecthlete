@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="618dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/soccer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Soccer" />
+
+            <Button
+                android:id="@+id/basketball"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BasketBall" />
+
+            <Button
+                android:id="@+id/football"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="FootBall" />
+
+            <Button
+                android:id="@+id/running"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Running" />
+
+            <Button
+                android:id="@+id/tenis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="" />
+
+            <Button
+                android:id="@+id/tens"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tennis" />
+
+            <Button
+                android:id="@+id/tabletenis"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Table Tennis" />
+
+            <Button
+                android:id="@+id/rugby"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Rugby" />
+
+            <Button
+                android:id="@+id/cricket"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Cricket" />
+
+            <Button
+                android:id="@+id/wrestling"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Wrestling" />
+
+            <Button
+                android:id="@+id/hockey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Hockey" />
+
+            <Button
+                android:id="@+id/volleyball"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="VolleyBall" />
+
+            <Button
+                android:id="@+id/badminton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Badminton" />
+
+            <Button
+                android:id="@+id/baseball"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Baseball" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What sport do you want to play now?"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
