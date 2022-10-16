@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Connections">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:text="People near you who want to play @thissport."
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="24dp"
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="16dp"
+                android:paddingBottom="24dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/badmasdfinton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="daniel craig" />
+
+                <Button
+                    android:id="@+id/baseasdfasball"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="lil baby" />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
