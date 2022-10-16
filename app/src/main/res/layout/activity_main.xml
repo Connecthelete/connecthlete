@@ -47,12 +47,14 @@
                 android:layout_height="wrap_content">
 
             </EditText>
+
             <Button
-                android:text="SIGN IN"
-                android:layout_marginTop="48dp"
+                android:id="@+id/signin"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_height="wrap_content">
+                android:layout_marginTop="48dp"
+                android:text="SIGN IN">
 
 
             </Button>
@@ -68,10 +70,11 @@
 
             <Button
 
-                android:text="SIGN UP"
-                android:layout_centerHorizontal="true"
+                android:id="@+id/signup"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="SIGN UP">
 
 
             </Button>

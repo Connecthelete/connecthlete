@@ -50,23 +50,17 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:padding="16dp"
+        <Button
+            android:id="@+id/signupbuttonid"
+            android:layout_marginHorizontal="16dp"
             android:layout_width="match_parent"
-            android:layout_alignParentBottom="true"
-            android:layout_height="wrap_content">
-
-            <Button
-
-                android:text="SIGN UP"
-                android:layout_centerHorizontal="true"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="SIGN UP">
 
 
-            </Button>
-        </LinearLayout>
+        </Button>
+
 
 
     </RelativeLayout>
