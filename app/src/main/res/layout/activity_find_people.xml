@@ -59,7 +59,7 @@
                     android:text="Running" />
 
                 <Button
-                    android:id="@+id/tenis"
+                    android:id="@+id/Lacrosse"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="" />

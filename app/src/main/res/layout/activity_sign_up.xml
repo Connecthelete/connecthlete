@@ -23,6 +23,7 @@
 
             <EditText
                 android:paddingTop="16dp"
+                android:id="@+id/phnoid"
                 android:paddingBottom="16dp"
                 android:hint="enter phone number"
                 android:layout_width="match_parent"
@@ -32,6 +33,7 @@
             <EditText
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
+                android:id="@+id/usernameid"
                 android:hint="create username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -41,6 +43,7 @@
             <EditText
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
+                android:id="@+id/pwdid"
                 android:hint="create password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -51,7 +54,8 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/signupbuttonid" android:layout_marginHorizontal="16dp"
+            android:id="@+id/signupbuttonid"
+            android:layout_marginHorizontal="16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
