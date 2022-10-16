@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignIn">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@
             <EditText
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
-                android:hint="enter passworddd"
+                android:hint="enter password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -79,5 +79,4 @@
 
 
     </RelativeLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
