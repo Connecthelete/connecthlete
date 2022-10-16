@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn">
+    tools:context=".SignUp">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -14,27 +14,17 @@
         <LinearLayout
             android:orientation="vertical"
             android:padding="16dp"
+            android:layout_marginTop="48dp"
             android:layout_alignParentTop="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:text="CONNECTHLETE"
-                android:layout_marginBottom="32dp"
-                android:textStyle="bold"
-                android:textSize="32dp"
-                android:gravity="center"
-                android:padding="8dp"
-                android:layout_height="wrap_content">
 
-
-            </TextView>
 
             <EditText
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
-                android:hint="enter username"
+                android:hint="enter phone number"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -42,20 +32,21 @@
             <EditText
                 android:paddingTop="16dp"
                 android:paddingBottom="16dp"
-                android:hint="enter password"
+                android:hint="create username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
             </EditText>
-            <Button
-                android:text="SIGN IN"
-                android:layout_marginTop="48dp"
+
+            <EditText
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:hint="create password"
                 android:layout_width="match_parent"
-                android:layout_centerHorizontal="true"
                 android:layout_height="wrap_content">
 
+            </EditText>
 
-            </Button>
 
         </LinearLayout>
 
@@ -79,4 +70,5 @@
 
 
     </RelativeLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
