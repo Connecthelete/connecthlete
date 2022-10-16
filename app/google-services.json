@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814804608424",
+    "project_id": "connecthleteapp",
+    "storage_bucket": "connecthleteapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814804608424:android:0882984646de4e68d6699d",
+        "android_client_info": {
+          "package_name": "com.example.connecthleteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814804608424-7otkrjg3r1e4dd4s357n0ciacgdka6ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8M5AEbBHVNx7JOFuFewCwGICFQ2IAf4Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814804608424-7otkrjg3r1e4dd4s357n0ciacgdka6ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
